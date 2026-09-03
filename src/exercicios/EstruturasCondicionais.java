@@ -1,13 +1,13 @@
 package exercicios;
-
-public class EstruturasCondicionais {
-    static void main() {
-        /*
+/*
             Descobrir quanto pagar de imposto de acordo com a tabela de Taxa de Imposto por salário anual da Holanda.
             €0 --> €34,712  tax = 9.78%
             €34,712 --> 68,587  tax = 37.35%
             €68,500 tax = 49.50%
          */
+public class EstruturasCondicionais {
+    static void main() {
+
         double salarioAnual = 70000;
         double taxaImposto;
 
