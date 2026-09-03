@@ -21,7 +21,7 @@ public class TiposPrimitivos {
         char caractere = 'K';
 
         System.out.println(idade);
-        System.out.println("A idade é " + idade + " anos.");
+        System.out.println("A idade é " + idade + " anos."); // foi feito uma Concatenação aqui.
         System.out.println(verdadeiro);
         System.out.println("char: "+caractere);
 
