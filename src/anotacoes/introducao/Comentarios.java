@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 /**
  * Isso é um comentário <b>javadoc</b>
  */

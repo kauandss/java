@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.introducao;
 
 public class OlaMundo {
     static void main() {

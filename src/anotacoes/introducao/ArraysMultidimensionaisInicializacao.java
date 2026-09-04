@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 
 public class ArraysMultidimensionaisInicializacao {
     static void main() {

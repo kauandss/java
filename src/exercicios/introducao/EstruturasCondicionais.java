@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.introducao;
 /*
             Descobrir quanto pagar de imposto de acordo com a tabela de Taxa de Imposto por salário anual da Holanda.
             €0 --> €34,712  tax = 9.78%

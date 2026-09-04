@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 
 public class ArraysMultidimensionaisForeach {
     static void main() {

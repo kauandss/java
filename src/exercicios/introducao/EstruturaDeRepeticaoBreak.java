@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.introducao;
 /*
  Dado o valor de um carro, descubra em quantas ele pode ser parcelado
  Condicão valorParcela >= 1000

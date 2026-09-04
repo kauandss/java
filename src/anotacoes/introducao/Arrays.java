@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 
 /**
  * Um array é uma estrutura de dados que armazena uma coleção de elementos do mesmo tipo

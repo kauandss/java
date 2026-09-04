@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 
 public class EstruturasCondicionaisOperadorTernario {
     static void main() {

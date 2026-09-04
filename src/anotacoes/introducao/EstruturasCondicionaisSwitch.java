@@ -1,4 +1,4 @@
-package anotacoes;
+package anotacoes.introducao;
 
 public class EstruturasCondicionaisSwitch {
     static void main() {

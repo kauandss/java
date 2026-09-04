@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.introducao;
 
 // Imprima todos os números pares de 0 até 1000
 public class EstruturaDeRepeticaoFor {
