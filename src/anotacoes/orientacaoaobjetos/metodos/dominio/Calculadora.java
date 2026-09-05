@@ -29,9 +29,9 @@ public class Calculadora {
         O valor resultante volta para o ponto onde o mét0do foi chamado.
      */
     public double divideDoisNumeros(double num1, double num2) {
-        if(num2 == 0){
+        if (num2 == 0) {
             return 0;
-        }else {
+        } else {
             return num1 / num2;
         }
     }
@@ -41,11 +41,11 @@ public class Calculadora {
          Em métodos void, o 'return;' vazio serve como um ponto de parada (break):
      */
     public void imprimideDivisaoDeDoisNumeros(double num1, double num2) {
-        if(num2 == 0){ // se num2 for zero, ele imprime o aviso e encerra a execução antes de dividir.
+        if (num2 == 0) { // se num2 for zero, ele imprime o aviso e encerra a execução antes de dividir.
             System.out.println("Não existe divisão por zero.");
             return;
         }
-        System.out.println(num1/num2);
+        System.out.println(num1 / num2);
 
     }
 }
