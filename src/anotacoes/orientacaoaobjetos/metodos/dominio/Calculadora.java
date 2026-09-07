@@ -50,10 +50,15 @@ public class Calculadora {
     }
 
     public void alteraDoisNumeros(int num1, int num2) {
-        num1 = 99;
-        num2 = 33;
+        /*
+            Estes parâmetros 'num1' e 'num2' são variáveis NOVAS e locais.
+            Elas receberam apenas uma cópia dos valores 1 e 2.
+         */
+
+        num1 = 99; // Altera apenas a cópia local, sem afetar o main.
+        num2 = 33; // Altera apenas a cópia local, sem afetar o main.
         System.out.println("Dentro do alteraDoisNumeros.");
-        System.out.println("Num1: " + num1);
-        System.out.println("Num2: " + num2);
-    }
+        System.out.println("Num1: " + num1); // Imprime 99
+        System.out.println("Num2: " + num2); // Imprime 33
+    } // Ao sair da chave, as variáveis cópias deixam de existir na memória.
 }
