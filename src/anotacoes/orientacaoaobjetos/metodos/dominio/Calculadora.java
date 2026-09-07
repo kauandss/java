@@ -65,14 +65,22 @@ public class Calculadora {
 
     public void somaArray(int[] numeros) {
         int soma = 0;
+
+        // For-each: a cada volta, pega um elemento do array e joga na variável 'num'
         for (int num : numeros) {
             soma += num;
         }
         System.out.println(soma);
     }
 
-    public void somaVarArgs(int... numeros) {
+    public void somaVarArgs(int... numeros) { // O '...' indica Varargs: quantidade variável de argumentos
         int soma = 0;
+
+        /*
+         Por baixo dos panos, o Java transforma os valores soltos em um array int[] comum
+         Por isso, a lógica interna de leitura é idêntica à do somaArray
+         */
+
         for (int num : numeros) {
             soma += num;
         }

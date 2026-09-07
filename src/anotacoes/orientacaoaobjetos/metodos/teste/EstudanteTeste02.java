@@ -6,8 +6,7 @@ import anotacoes.orientacaoaobjetos.metodos.dominio.ImpressoraEstudante;
 public class EstudanteTeste02 {
     static void main(String[] args) {
         Estudante estudante01 = new Estudante();
-        Estudante estudante02 = new Estudante();
-        ImpressoraEstudante impressora = new ImpressoraEstudante();
+        Estudante estudante02 = new Estudante();s
 
         estudante01.nome = "Kauan";
         estudante01.idade = 19;
