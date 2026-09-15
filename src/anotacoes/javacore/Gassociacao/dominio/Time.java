@@ -2,9 +2,9 @@ package anotacoes.javacore.Gassociacao.dominio;
 
 public class Time {
     private String nome;
-    private Time time;
 
-    public Time(String nome) {
+
+    public Time(String nome) { // Construtor: Obriga a dar um nome ao time no momento em que ele for criado
         this.nome = nome;
     }
 
