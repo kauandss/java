@@ -10,6 +10,9 @@ public class Anime {
     // 3 - Bloco de inicialização é executado;
     // 4 - Construtor é executado.
 
+
+    // 1º PASSO: A JVM carrega a classe e executa os blocos estáticos na ordem.
+    // Executa APENAS UMA VEZ na vida útil do programa.
     static {
         System.out.println("Dentro do bloco de inicialização estático 1.");
         episodios = new int[100];
@@ -26,6 +29,8 @@ public class Anime {
         System.out.println("Dentro do bloco de inicialização estático 3.");
     }
 
+    // 2º PASSO (Ao instanciar): O bloco de inicialização de instância é executado.
+    // Executa TODA VEZ que você faz um 'new Anime()', antes do construtor.
     {
         System.out.println("Dentro do bloco de inicialização NÃO estático.");
     }
@@ -34,6 +39,7 @@ public class Anime {
         this.nome = nome;
     }
 
+    // 3º PASSO (Ao instanciar): O construtor é executado por último.
     public Anime() {
         for (int episodios : Anime.episodios) {
             System.out.println(episodios + " ");
