@@ -3,7 +3,7 @@ package anotacoes.orientacaoaobjetos.modificadorestatico.dominio;
 public class Carro {
     private String marca;
     private double velocidadeMaxima;
-    public static double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
 
     public Carro(String marca, double velocidadeMaxima) {
         this.marca = marca;
@@ -16,6 +16,15 @@ public class Carro {
         System.out.println("Velocidade Máxima: "+ this.velocidadeMaxima);
         System.out.println("Velocidade Limite: "+ Carro.velocidadeLimite);
     }
+
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite(){
+        return Carro.velocidadeLimite;
+    }
+
     public String getMarca() {
         return marca;
     }
