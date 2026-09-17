@@ -17,6 +17,7 @@ public class Professor {
         if(seminarios == null) return;
         for(Seminario seminario : seminarios){
             System.out.println("Seminário: " + seminario.getTitulo());
+            System.out.println("Local: "+ seminario.getLocal().getEndereco());
         }
 
     }

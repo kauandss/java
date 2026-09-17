@@ -11,17 +11,16 @@ public class SeminarioTeste {
         Professor professor = new Professor("William", "Programação");
         Aluno aluno1 = new Aluno("Kauan", 19);
         Aluno aluno2 = new Aluno("Vinicius", 20);
-        Seminario seminario = new Seminario("Associação", local);
+        Seminario seminario1 = new Seminario("Associação", local);
 
-        Aluno[] alunos = {aluno1, aluno2};
-        Seminario[] seminarios = new Seminario[]{seminario};
+        Aluno[] alunos = new Aluno[]{aluno1, aluno2};
+        Seminario[] seminarios = new Seminario[]{seminario1};
 
-        seminario.setAlunos(alunos);
+        seminario1.setAlunos(alunos);
         professor.setSeminarios(seminarios);
-        aluno1.setSeminario(seminario);
-        aluno2.setSeminario(seminario);
+        aluno1.setSeminario(seminario1);
+        aluno2.setSeminario(seminario1);
 
         professor.imprimir();
-
     }
 }
