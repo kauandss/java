@@ -29,7 +29,7 @@ public class Professor {
         for (Seminario seminario : seminarios) {
             System.out.println("Seminário: " + seminario.getTitulo());
             System.out.println("Local: " + seminario.getLocal().getEndereco());
-            if (seminario.getAlunos() == null) continue;
+            if (seminario.getAlunos() == null || seminario.getAlunos().length == 0) continue;
             System.out.println("\n--- Alunos ---");
             for (Aluno aluno : seminario.getAlunos()) {
                 System.out.println("Aluno: " + aluno.getNome() + " | Idade: " + aluno.getIdade());
