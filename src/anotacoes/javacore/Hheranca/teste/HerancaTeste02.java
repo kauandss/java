@@ -18,7 +18,7 @@ public class HerancaTeste02 {
     // 7 - Cada atributo de subclasse pai [filha] é criado e inicializado com valores default ou o que for passado;
     // 8 - Bloco de inicialização da subclasse é executado na ordem em que aparece;
     // 9 - Construtor da subclasse é executado.
-    
+
     static void main(String[] args) {
         // Ao instanciar um Funcionario, toda a cascata de eventos numerados acima será disparada.
         Funcionario funcionario = new Funcionario("Kauan");
