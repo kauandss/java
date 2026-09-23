@@ -1,6 +1,8 @@
 package anotacoes.javacore.Hheranca.dominio;
 
 public class Endereco {
+    // Modificador 'private' garante o encapsulamento.
+    // Classes externas só acessam esses dados via Getters e Setters.
     private String rua;
     private String cep;
 
